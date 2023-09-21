@@ -1,0 +1,18 @@
+{
+  "name": "nestjs-nextjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm run --parallel dev",
+    "build:server": "pnpm --filter server build",
+    "build:slack-bot": "pnpm --filter slack-bot build",
+    "build:client": "pnpm --filter client build",
+    "start:server": "pnpm --filter server start:prod",
+    "start:slack-bot": "pnpm --filter slack-bot start:prod",
+    "start:client": "pnpm --filter client start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
